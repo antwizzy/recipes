@@ -40,6 +40,7 @@ a {
     text-align: center;
     color: gray;
     background-color: whitesmoke;
+    padding: 1rem;
 }
 a:hover {
     color: white;

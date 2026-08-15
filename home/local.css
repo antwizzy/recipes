@@ -12,3 +12,10 @@ h1 {
     text-align: center;
     background-color: whitesmoke;
 }
+
+@media (max-width: 600px) {
+    body {
+        grid-template-columns: none;
+        grid-template-rows: repeat(6, 1fr);
+    }
+}
