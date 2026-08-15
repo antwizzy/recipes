@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+h1 {
+    grid-row: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+}

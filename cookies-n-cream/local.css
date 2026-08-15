@@ -1,0 +1,38 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+body > div {
+    display: grid;
+    gap: 1px;
+    height: 100vh;
+}
+.main {
+    grid-template-rows: auto auto 2fr 1fr;
+}
+.ingredients {
+    grid-template-rows: auto repeat(5,1fr);
+}
+.steps {
+    grid-template-rows: auto repeat(6,1fr);
+}
+.steps div {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 1px;
+}
+
+a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+h2, p {
+    padding: .8rem 1rem;
+    background-color: whitesmoke;
+}
