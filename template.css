@@ -50,7 +50,7 @@ h2, p {
     body > div:nth-child(2) {
         grid-template-columns: none;
         grid-template-rows: auto;
-        overflow: scroll;
+        overflow-y: scroll;
     }
     body > div:nth-child(2) > div {
         overflow: visible;
@@ -67,11 +67,9 @@ h2, p {
     }
     body > div:nth-child(1) {
         position: static;
-        grid-column: 1/4;
     }
     body > div:nth-child(2) {
-        grid-template-columns: none;
-        grid-template-rows: auto;
         overflow: visible;
+        grid-column: auto;
     }
 }
